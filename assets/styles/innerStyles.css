@@ -1,0 +1,168 @@
+﻿section .innerCon
+{
+	clear: both;
+	height: auto;
+	min-height: 350px;
+	padding: 2.0em 0em;
+	width: 100%;
+}
+
+section .innerCon .container-fluid div[class*=col-] h2
+{
+	padding: 0.7em 0em 0.5em 0.7em;
+}
+
+section .innerCon .container-fluid div[class*=col-] h4
+{
+	padding: 0.7em 0em 0em 0.7em;
+}
+
+
+section .innerCon .container-fluid div[class*=col-] img
+{
+	padding: 1em 2em;
+}
+
+section .innerCon .container-fluid div[class*=col-] p
+{
+	clear: both;
+	font-size: 1.2em;
+	text-align: justify;
+	padding: 0.7em 1em;
+	width: 100%;
+}
+
+section .innerCon .container-fluid div[class*=col-] p span
+{
+	font-weight: 700;
+}
+
+
+
+section .innerCon .container-fluid div[class*=col-] label
+{
+	clear: both;
+	font-size: 1.2em;
+	padding: 0.5em 0.7em 0.2em 0.7em;
+}
+
+section .innerCon .container-fluid div[class*=col-] ul,
+section .innerCon .container-fluid div[class*=col-] ol
+{
+	clear: both;
+	text-align: justify;
+	padding: 1em 1em 1em 2.5em;
+	width: 100%;
+}
+
+section .innerCon .container-fluid div[class*=col-] ul li,
+section .innerCon .container-fluid div[class*=col-] ol li
+{
+	font-size: 1.2em;
+}
+
+section .innerCon .container-fluid div[class*=col-] input,
+section .innerCon .container-fluid div[class*=col-] textarea
+{
+	border: 1px solid rgba(66, 139, 202, 1);
+}
+
+section .innerCon .container-fluid div[class*=col-] div[class*=group]
+{
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+}
+
+section .innerCon .container-fluid div[class*=col-] div[class*=group] span
+{
+	color: rgba(255, 255, 255, 1);
+}
+
+
+
+section .innerCon .container-fluid div[class*=col-] input[type=submit]
+{
+	border: none;
+}
+
+section #teamCon
+{
+	height: auto;
+	min-height: 500px;
+	padding: 2.0em 0em;
+	text-align: center;
+}
+
+section #teamCon .container-fluid
+{
+	padding-bottom: 1.2em;
+	padding-top: 1.2em;
+}
+
+section #teamCon .container-fluid #innerHeader
+{
+	clear: both;
+	height: auto;
+	min-height: 80px;
+	padding: 1.5em 0em;
+}
+
+section #teamCon .container-fluid #innerHeader h2
+{
+	font-size: 3.5em;
+}
+
+section #teamCon .container-fluid #innerHeader h2 span
+{
+	color: rgba(255, 102, 0, 1);
+}
+
+section #teamCon .container-fluid #innerHeader p
+{
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+section #teamCon .container-fluid div[class*=col-] div
+{
+	text-align: center;
+	margin-bottom: 0.7em;
+	padding: 0.5em;
+}
+
+section #teamCon .container-fluid div[class*=col-] div img
+{
+	border: 5px solid rgba(255, 102, 0, 1);
+	margin: 0.5em 1em;
+}
+
+section #teamCon .container-fluid div[class*=col-] div h3
+{
+	color: rgba(255, 102, 0, 1);
+	font-size: 2.0em;
+}
+
+section #teamCon .container-fluid div[class*=col-] div h3 span
+{
+	color: rgba(0, 20, 40, 1);
+}
+
+
+section #teamCon .container-fluid div[class*=col-] div h4
+{
+	color: rgba(100, 100, 100, 1);
+	font-size: 1.5em;
+	padding: 0.2em;
+}
+
+section #teamCon .container-fluid div[class*=col-] div p
+{
+	color: rgba(100, 100, 100, 1);
+	font-size: 1.2em;
+	padding: 0.8em 0.2em;
+	text-align: justify;
+}
+

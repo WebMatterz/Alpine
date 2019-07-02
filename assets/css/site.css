@@ -1,0 +1,654 @@
+﻿body, header, section, article, aside, div, img, h1, h2, h3, h4, h5, h6, p, a, hr, ul, ol, li, table, tr, th, td, form, fieldset, legend, input
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* RESET STYLES END HERE
+-------------------------------------------------------------*/
+
+body
+{
+	font-family: 'Segoe UI';
+}
+
+body .container {
+	width:100%;
+}
+
+header
+	{	
+		background-color:transparent;
+		clear: both;
+		color: rgba(255, 255, 255, 1);
+		height: auto;
+		margin: 0;
+		min-height: 50px;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 999;
+	}
+
+header #logo
+{
+	width: 150%;
+}
+
+header .container-fluid div[class*=col-] a
+{
+	float: left;
+	padding: 1.8em 0.5em 0em;
+}
+
+header .container-fluid div[class*=col-] a img
+{
+	float: left;
+	height: auto;
+	min-height: 50px;
+	border-radius: 0.5em;
+	margin: 0em 0.5em;
+	width: auto;
+}
+
+header .container-fluid div[class*=col-] h1
+{
+	color: rgba(255,255,255,1);
+	font-size: 3em;
+	padding: 0.5em 0em 0em;
+}
+
+header .container-fluid div[class*=col-] p
+{
+	color: rgba(255, 255, 255, 1);
+	font-style:italic;
+	font-size: 1.4em;
+	margin: 0em 0em 0em 1em;
+	width: 100%;
+}
+
+header .container-fluid #menu
+{
+	background-color: transparent;
+	border: none;
+}
+
+header .container-fluid div#mainNav
+{
+	background-color: transparent;
+	border: none;
+	padding: 0em 1em;
+}
+
+header .container-fluid div#mainNav ul
+{
+	padding-left: 0.5em;
+	margin-top: -5px;	
+}
+
+header .container-fluid div#mainNav ul li
+{
+	padding: 2.2em 0.2em 0em;
+	margin: 0em;
+}
+
+header .container-fluid div#mainNav ul li a
+{
+	background-color: transparent !important;
+    color: rgba(255, 255, 255, 1);
+    font-family: inderRegular;
+    font-size: 1.4em;
+    margin: 0em;
+    padding: 1em 0.4em;
+    }
+
+header .container-fluid div#mainNav ul li a:hover
+{
+	color: rgba(19, 104, 155, 1);
+}
+
+
+/*Nav Media Queries for Extra Small Devices
+------------------------------------------------*/
+
+@media all and (max-width: 768px) {
+
+	header .container-fluid .navbar-header {
+	color: rgba(19, 104, 155, 1);
+	}
+	
+	header .container-fluid div[class*=col-] #menu button {
+	background-color: rgba(19, 104, 155, 1);
+	color: rgba(255, 255, 255, 1);
+	}
+	
+	header .container-fluid div[class*=col-] #menu button span.icon-bar {
+		color: rgba(255, 255, 255, 1);
+	}
+	
+	
+	header .container-fluid #menu ul li a {
+	color: rgba(35, 54, 57, 1);
+    font-family: inderRegular;
+    font-size: 1em;
+    margin: 0em;
+    padding: 0.7em 1em;
+    }
+
+	header .container-fluid #menu ul li ul li a {
+	color: rgba(19, 104, 155, 1);
+    font-family: inderRegular;
+    font-size: 1em;
+    margin: 0em;
+    padding: 0.7em 1em;
+    }
+}
+
+/*Nav Media Queries for Small Devices
+------------------------------------------------*/
+
+
+@media all and (min-width: 768px) and (max-width: 992px) {	
+	header .container-fluid div[class*=col-] #menu ul li a {
+	color: rgba(19, 104, 155, 1);
+    font-family: inderRegular;
+    font-size: 0.9em;
+    margin: 0em;
+    padding: 2.3em 0.7em;
+    }
+
+	header .container-fluid div[class*=col-] #menu ul li ul li a {
+	color: rgba(19, 104, 155, 1);
+    font-family: inderRegular;
+    font-size: 0.9em;
+    margin: 0em;
+    padding: 0.7em;
+    }
+}
+
+/*Nav Media Queries for Medium Devices
+------------------------------------------------*/
+
+@media all and (min-width: 992px) and  (max-width: 1200px) {	
+	header .container-fluid div[class*=col-] #menu ul li a {
+	color: rgba(19, 104, 155, 1);
+    font-family: inderRegular;
+    font-size: 1.1em;
+    margin: 0em;
+    padding: 2.7em 1em;
+    }
+
+	header .container-fluid div[class*=col-] nav ul li ul li a {
+	color: rgba(19, 104, 155, 1);
+    font-family: inderRegular;
+    font-size: 1.1em;
+    margin: 0em;
+    padding: 0.7em 1em;
+    }
+}
+
+/* CURRENT NAV IDENTIFIER STYLE
+==================================================*/
+body#Home header .container-fluid nav ul li.nav-home,
+body#About header .container-fluid nav ul li.nav-about,
+body#Services header .container-fluid nav ul li.nav-services,
+body#Products header .container-fluid nav ul li.nav-products,
+body#Blog header .container-fluid nav ul li.nav-blog,
+body#Contact header .container-fluid nav ul li.nav-contact
+{
+	/*border-bottom: 2px solid rgba(19, 104, 155, 1);*/
+}
+
+/* HEADER STYLES END HERE
+------------------------------------------------*/
+
+section
+{
+	clear: both;
+	height: auto;
+	min-height: 500px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+section #banner p
+{
+	color: black;
+	font-size: 1.4em;
+	margin: 20px 0px 0px;
+}
+
+section #banner a
+{
+	font-size: 1.4em;
+	margin: 0px 0px 40px;
+}
+
+
+section #banner carousel-inner a {
+	margin: 0em 0em 3em;
+}
+
+
+section #banner
+{
+	clear: both;
+	height: auto;
+	min-height: 200px;
+}
+
+section #banner h1
+{
+	color: white;
+	font-size: 5em;
+	
+}
+
+
+#banner #theCarousel a.right span.glyphicon {
+    right: 2px;
+    position: absolute;
+}
+
+#banner #theCarousel a.left span.glyphicon {
+    left: 2px;
+    position: absolute;
+}
+
+
+ #banner a.carousel-control span.glyphicon {
+    background-color: rgba(19, 104, 155, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5em !important;
+    padding: 0.25em !important;
+}
+
+ #banner a.carousel-control .glyphicon-chevron-right, #banner a.carousel-control .glyphicon-chevron-left {
+    min-height: 45px !important;
+    min-width: 45px !important;
+} 
+
+#banner  h3 {
+    color: rgba(255, 255, 255, 1);
+    font-family: inderRegular;
+    font-size: 3em;
+    padding: 1em 0em;
+    text-align: center;
+}
+
+#banner  h4  {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Segoe UI";
+    font-size: 2em;
+    margin-bottom: 2em;
+    padding: 0;
+    text-align: center;
+}
+
+
+/*       banner ends here 
+-----------------------------------------------------------------*/
+
+section #indexWelcome
+{
+	border-bottom: 1px solid rgba(52, 130, 199, 1);
+	height: auto;
+	min-height: 350px;	
+	padding: 3.0em 0em;
+	width: 100%;
+}
+
+section #indexWelcome .container-fluid div[class*=col-] p
+{
+	font-size: 1.2em;	
+}
+
+section #indexWelcome .container-fluid div[class*=col-] h2
+{
+	color: rgba(0, 0, 0, 1);
+	padding: 0.7em;
+}
+
+section #indexWelcome .container-fluid div[class*=col-] h2 span
+{
+	color: rgba(19, 104, 155, 1);
+	}
+
+/*               section #indexWelcome Ends Here 
+---------------------------------------------------------------------*/
+
+section #indexCon
+{
+ 
+	color:  rgba(0, 0, 0, 1);
+	clear: both;
+	height: auto;
+	min-height: 180px;	
+	padding: 2.0em 0em;
+	text-align: center;
+	width: 100%;
+}
+
+section #indexCon  h2, #indexCon h3
+{
+ 	color:  rgba(19, 104, 155, 1);
+	margin-bottom: 0px;
+}
+
+section #indexCon .service-info
+{	
+	margin: 0.2em 0px 0.2em 0px;
+	text-align:center;
+	
+}
+
+
+section #indexCon .container-fluid div[class*=col-]
+{
+	margin-bottom: 1.5em;
+	
+}
+
+section #indexCon .container-fluid div[class*=col-] span
+{
+	border: 2px solid rgba(19, 104, 155, 1);
+	border-radius: 200px;
+	text-align: center;
+	color: rgba(0, 20, 40, 1);
+	font-size: 4em;
+	clear: both;
+	margin: 0.2em 20px 0.2em 50px;
+	padding: 0.4em;
+}
+
+
+section #indexCon .container-fluid div[class*=col-] .glyphicon
+{
+	background-color: rgba(19, 104, 155, 1);
+	color: rgba(250,250,250,1);
+}
+
+section #indexCon .container-fluid div[class*=col-] .glyphicon:hover
+{
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(19,104,	155,1);
+}
+
+
+section #indexCon .container-fluid div[class*=col-] h2
+{
+	padding: 0.2em 0.2em 0.5em 0.2em;
+}
+
+
+section #indexCon .container-fluid div[class*=col-] p
+{
+	font-size: 1.1em;
+	padding-top: 0.5em;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+section #indexCon .container-fluid div[class*=col-] a
+{
+	background-color: rgba(255,255,255,1);
+	color: rgba(255, 102, 0, 1);
+	border: blue;
+	border-radius: 5%;
+	padding: 10px;
+	height: 20px;
+	width: 50%;
+	margin: 2em 20px 2em 50px;
+}
+
+section #indexCon .container-fluid div[class*=col-] a:hover
+{
+	background-color: rgba(255, 102, 0, 1);
+	color: rgba(255,255,255,1);
+	text-decoration:none;
+}
+
+/*               section mainContent Ends Here 
+---------------------------------------------------------------------*/
+
+
+ #secondRow {
+	background-image: url('../images/image.png');
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 2px solid rgba(19,104,155,1);
+	border-bottom: 2px solid rgba(19,104,155,1);
+	clear: both;
+	height: auto;
+	margin: 0.7em 0 0em;
+	min-height: 300px;	
+	padding: 2em 0em 2em;
+	width: auto;
+    color: rgba(250,250,250,1);
+    text-align:center;
+}
+
+section #secondRow .container-fluid span {
+	color: rgba(19,104,155,1);}
+
+section #secondRow .container-fluid div[class*=col-] h3
+{
+	clear: both;
+	color: rgba(255, 255, 255, 1);
+	padding-top: 0.5em;
+	margin: 20px 0px;
+}
+section #secondRow .container-fluid div[class*=col-] a
+{
+	color: rgba(255, 255, 255, 1);
+	float: right;
+	font-size: 1.0em;
+	padding: 0.5em 0.5em;
+}
+
+section #secondRow .container-fluid div[class*=col-] a:hover
+{
+	background-color: rgba(19, 104, 155, 0.8);
+	text-decoration: none;
+}
+
+section #secondRow .container-fluid h2{
+	color: rgba(255,255,255,1);
+	font-weight: bolder;
+	margin: 0em 0.5em 0.5em;
+	padding-bottom: 0.7em;
+
+}
+
+section #secondRow .container-fluid h2 > span{
+	color: rgba(19,104,155,1);
+	
+}
+ 
+
+section #secondRow .container-fluid h4{
+	color: #cfc;
+	font-family: "Agency FB";
+	font-weight: bolder;
+	margin: 0em 0.5em 0.5em;
+}
+
+
+
+
+/***       #secondRow Ends Here
+-----------------------------------------------------*/
+
+#indexActivities .container-fluid
+{
+	clear: both;
+	height: auto;
+	margin: 0.7em 0;
+	text-align: center;
+	min-height: 250px;	
+	padding: 2.5em 0em 0em;
+	width: 100%;
+}
+
+#indexActivities .container-fluid h2
+{
+	padding: 0.5em 0em 1em;
+	margin-left: 1em;
+}
+
+#indexActivities .container-fluid th
+{
+	text-align: center;
+}
+
+#indexActivities .container-fluid  h2 span
+{
+	color: rgba(15, 104, 155, 1);
+	font-style:italic;
+}
+
+
+
+
+
+/**  #indexActivities ends here 
+------------------------------------------**/
+
+section #indexContact
+{
+	background-color: rgba(19,105,155,1);
+	color: rgba(255,255,255,1);
+	height: auto;
+	min-height: 200px;	
+	padding: 1.0em 0em 0em;
+	width: 100%;
+}
+
+section #indexContact .container-fluid
+{
+	margin: 0px 0px 0px 30px;
+	padding-bottom: 1.0em;
+	padding-top: 1.0em;
+}
+
+section #indexContact .container-fluid div[class*=col-] p span {
+    padding: 0.25em;
+    color: rgba(255, 255, 255, 1);
+}
+
+#indexContact .container-fluid div[class*=col-] p 
+{
+	padding: 0.5em 0.1em 0em;
+
+}
+
+#indexContact .container-fluid div[class*=col-] p a
+{
+	
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	min-height: 100px;
+	height: auto;
+	margin: 0.5em 0.1em;
+	padding: 1.9em;
+	width: 20%;
+}
+
+
+#indexContact .container-fluid div[class*=col-] p a#fb
+{
+	background-image: url('../images/fb_gray.png');
+
+}
+
+#indexContact .container-fluid div[class*=col-] p a#fb:hover
+{
+	background-image: url('../images/fb_black.png');
+}
+
+#indexContact .container-fluid div[class*=col-] p a#tw
+{
+	background-image: url('../images/twt_gray.png');
+	padding-top: 40px;
+	padding-bottom: 40px; 
+}
+
+#indexContact .container-fluid div[class*=col-] p a#tw:hover
+{
+	background-image: url('../images/twt_black.png');
+}
+
+#indexContact .container-fluid div[class*=col-] p a#gg
+{
+	background-image: url('../images/gg_gray.png');
+}
+
+#indexContact .container-fluid div[class*=col-] p a#gg:hover
+{
+	background-image: url('../images/gg_black.png');
+}
+
+
+
+section #indexContact .container-fluid hr
+{
+	margin: 0px 0px 30px;
+	width: 30%;
+}
+
+
+section #indexContact div[class*=group]
+{
+	margin: 1em 0em;
+	height: auto;
+	width: 100%;
+}
+
+
+section #indexContact .container-fluid h3
+{
+	clear: both;
+	margin: 0em 0em -0.6em;
+	padding: 0em 0em 0.8em;
+}
+
+
+
+section #indexContact .container-fluid div[class*=col-] p, label,section #indexContact .container-fluid div[class*=col-] li
+{
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 1.2em;
+	margin: 0px;
+}
+
+section #indexContact .container-fluid div[class*=col-] p,section #indexContact .container-fluid div[class*=col-] li
+{
+	margin: 0px 0px 10px;
+}
+
+section #indexContact .container-fluid div[class*=col-] li, section #indexContact .container-fluid div[class*=col-] a
+
+{
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	list-style: none;
+}
+
+section #indexContact .container-fluid div[class*=col-] a:hover
+{
+	color: rgba(205, 255, 255, 0.5);
+}
+
+/* CONTENT STYLES  of INDEX PAGE ENDS HERE
+------------------------------------------------*/
+
+
+
+
+/* CONTENT STYLES  of ABOUT PAGE STARTS HERE
+------------------------------------------------*/
+

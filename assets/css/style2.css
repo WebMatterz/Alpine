@@ -1,0 +1,529 @@
+﻿#about #innerBanner {
+    background-image: url('../images/doc/about.jpg');
+}
+
+#member #innerBanner {
+    background-image: url('../images/doc/member.jpg');
+}
+
+#news #innerBanner {
+    background-image: url('../images/news_events.jpg');
+}
+
+#ourService #innerBanner {
+    background-image: url('../images/service.jpg');
+}
+
+#destination #innerBanner {
+    background-image: url('../images/doc/destination.jpg');
+}
+
+#contact #innerBanner {
+    background-image: url('../images/doc/contactus.jpg');
+}
+
+
+
+#innerBanner {
+    background-position: center center;
+    background-repeat: no-repeat;
+    clear: both;
+    height: auto;
+    min-height: 400px;
+    width: 100%;
+}
+
+#innerBanner .container-fluid {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+#innerBanner .container-fluid h2 {
+    color: rgba(255, 255, 255, 1);
+    font-family: inderRegular;
+    font-size: 2em;
+    margin: auto;
+    padding: 5em 0 0 0;
+  
+}
+
+ #innerBanner .container-fluid h2 span {
+ 	color: rgba(15, 105, 155, 1);
+    font-size: 2.25em;
+     padding: 0 0 5em;
+
+}
+
+
+
+ #innerBanner .container-fluid p {
+    color: rgba(255, 255, 255, 1);
+    font-family: inderRegular;
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 0 0 0.5em 0;
+}
+
+section #aboutContent
+{
+	clear: both;
+	height: auto;
+	min-height: 200px;
+	padding: 3.0em 1em;
+}
+
+section #aboutContent h2, section #mission h2, section #sideContent h2
+{
+	font-family: "Agency FB";
+	font-weight: bolder;
+	padding: 1em 0em 0.5em;
+	font-size: 2.4em;
+}
+
+section #aboutContent h2 span
+{
+	color: rgba(15, 105, 155, 1);
+}
+
+section #aboutContent .container-fluid div[class*=col-] p, section #mission p, section #sideContent p
+{
+	float: none;
+	font-size: 1.2em;
+	font-weight: 400;
+	text-align: justify;
+}
+
+section #aboutContent li
+{
+	font-size: 1.3em;
+}
+
+section #mission h2, section #sideContent h2
+{
+	margin: 0em 1em;
+}
+
+section #mission p, section #mission table, section #sideContent p
+{
+	margin: 0em 0em 1em 1.5em;
+}
+
+section #sideContent p
+{
+	margin: 0em 0.5em 0em 2em;
+}
+
+section #sideContent h3
+{
+	margin: 1em 0em 0.5em 1.5em;
+}
+
+
+
+
+section #team
+{
+	clear: both;
+	height: auto;
+	min-height: 600px;
+	padding: 1.0em 0em;
+}
+
+ section #team h2
+{
+	margin-bottom: 0.5em;
+	padding-bottom: 0em;
+	width: auto;
+}
+
+section #team p
+{
+ 	text-align: justify; 
+}
+
+section #team img {
+	border: 2px solid rgba(15,104,155,1);
+	border-radius: 10px;
+	clear: both;
+	height: auto;
+	width: 80%;
+	margin: 0.5em 0em 1em 1em;
+	padding: 0.3em;
+}
+
+section #team h5
+{
+	font-size: 1.4em;
+	margin-left: 1em;
+	padding: 0.5em 0em 0em;
+}
+
+section #team p
+{
+	color: rgba(15,104,155,1);
+	margin-left: 1.2em;
+	padding: 0em 0em 2em;	
+}
+
+
+section #service h2 {
+	margin-left: 0.5em;
+}
+
+ section #service p {
+	margin-left: 1em;
+}
+
+
+#mainContact
+{
+	clear: both;
+	height: auto;
+	min-height: 200px;
+	padding: 3.0em 1em;
+}
+
+section #mainContact h2{ 
+	font-family: "Agency FB";
+	font-weight: bolder;
+	padding: 1em 0em;
+	font-size: 2.4em;
+}
+
+#mainContact h2 span
+{
+	color: rgba(155, 0, 0, 1);
+}
+
+#mainContact h2 span2
+{
+	color: rgba(0, 105, 0, 1);
+}
+
+
+#contact .container-fluid div[class*=col-] img
+{
+	height: auto;
+	float: none;
+	margin: 0em 1em 0em 0em;
+	width: 10em;
+}
+
+#mainContact .container-fluid div[class*=col-] p
+{
+	float: none;
+	font-size: 1.2em;
+	font-weight: 400;
+	text-align: justify;
+}
+
+
+#mainContact .container-fluid div[class*=col-] tr:hover
+{
+	color: rgba(205, 0, 0, 1);
+}
+
+#mainContact .container-fluid div[class*=col-] th
+{
+	background-color: rgba(0, 105, 0, 1);
+	color: rgba(255,255,255,1);
+	text-align:center;
+}
+
+
+#mainContact .container-fluid div[class*=col-] h3
+{
+	font-family: "Agency FB";
+	font-weight: bolder;
+	border-bottom: 2px solid rgba(205,0,0,1);
+	margin: 0em;
+}
+
+#mainContact .container-fluid div[class*=col-] h4
+{
+	font-weight: bolder;
+	margin: 1em 0em;
+}
+
+#mainContact div[class*=group]
+{
+	margin: 1em 0em;	
+	height: auto;
+	width: 100%;
+}
+
+#contact iframe {
+    border: 0px none;
+    border-color: rgba(15,104,155,1);
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+}
+
+#mainContact form span
+{
+	color: rgba(255,255,255,1);
+}
+
+#mainContact label {
+	margin: 20px 0px 5px;
+}
+
+
+
+
+#innerCon {
+    clear: both;
+    font-family: inderRegular;
+    min-height: 400px;
+    padding: 2em;
+    width: 100%;
+}
+
+#innerCon .container {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+#innerCon .container h2 {
+    padding-bottom: 1em;
+    padding-top: 0.7em;
+}
+
+#innerCon .container div[class*=col-] {
+    padding-bottom: 1.5em;
+}
+
+#innerCon .container div[class*=col-] img {
+     border-top: 2px solid rgba(15, 104, 155, 1);
+    margin: 0 0 1.5em 0;
+}
+
+#innerCon .container div[class*=col-] h2 {
+    clear: both;
+    color: rgba(155, 104, 155, 1);
+    font-family: inderRegular;
+    font-size: 1.6em;
+    padding: 0.5rem 0;
+    vert-align: bottom;
+    vertical-align: text-bottom;
+}
+
+#innerCon .container div[class*=col-] h2 span {
+     color: rgba(100, 100, 100, 1);
+     font-size: 1.3rem;
+}
+
+#innerCon .container div[class*=col-] h4 {
+     background-color: rgba(15, 104, 155, 1);
+    clear: both;
+    color: rgba(255, 255, 255, 1);
+    font-family: inderRegular;
+    font-size: 1.5rem;
+    padding: 0.5em 0.5em;
+  vertical-align: text-bottom;
+}
+
+#innerCon .container div[class*=col-] h3 {
+     color: rgba(15, 104, 155, 1);
+     clear: both;
+     font-family: inderRegular;
+     font-size: 1.25rem;
+     padding: 0.5rem 0.5rem;
+}
+
+#innerCon .container div[class*=col-] h5 {
+     clear: both;
+     font-family: inderRegular;
+     font-size: 1.25rem;
+     font-style: italic;
+     padding: 0.5rem 0.5rem;
+}
+
+
+
+#innerCon .container div[class*=col-] ul {
+     clear: both;
+     list-style: none;
+     margin: 0 0 2rem 0;
+     padding: 0 0 0 1rem;
+}
+
+#innerCon .container div[class*=col-] ul li span {
+     color: rgba(15, 104, 155, 1);
+}
+
+
+
+ #innerCon .container div[class*=col-] p {
+    clear: both;
+    font-family: inderRegular;
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+    text-align: justify;
+}
+
+#innerCon .container div[class*=col-] blockquote {
+     background-color: rgba(220, 220, 220, 1);
+    clear: both;
+    color: rgba(50, 50, 50, 1);
+    font-family: inderRegular;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-align: justify;
+}
+
+
+
+#innerCon .container div[class*=col-] div.row div[class*=col-] img {
+     border-top: 2px solid rgba(15, 104, 155, 1);
+}
+
+#innerCon .container div[class*=col-] div.row div[class*=col-] h2 {
+    height: auto;
+    font-family: inderRegular;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+#innerCon .container div[class*=col-] div.row div[class*=col-] p {
+    font-size: 0.8em;
+    padding: 0;
+    text-align: left;
+}
+
+#innerCon .container div[class*=col-] div[class*=form] {
+    margin-bottom: 1.5em;
+}
+
+#innerCon .container div[class*=col-] div[class*=form] label  {
+    color: rgba(15, 104, 155, 1);
+    clear: both;
+    font-size: 1.1em;
+    font-weight: 100;
+    width: 100%;
+}
+
+#innerCon .container div[class*=col-] div[class*=form] input  {
+    clear: both;
+    text-align:left;
+    width: 100%;
+}
+
+#innerCon .container div[class*=col-] div[class*=form] select  {
+    clear: both;
+    width: 100%;
+}
+
+#innerCon .container div[class*=col-] div[class*=form] textarea  {
+  
+}
+
+#innerCon .container p  {
+    clear: both;
+}
+
+#innerCon .container h6  {
+    border-bottom: 2px dotted rgba(255, 255, 255, 1);
+    border-top: 2px dotted rgba(255, 255, 255, 1);
+    background-color: rgba(15, 104, 155, 1);
+    color: rgba(255, 255, 255, 1);
+    clear: both;
+    font-size: 2em;
+    margin: 2em 0;
+    padding: 0.5em 0;
+}
+
+
+ #innerCon .container form{
+     width: 100%;
+}
+
+
+
+/* CONTACT STYLE GOES HERE
+-------------------------------------------------------*/
+
+ #innerCon .container div[class*=col-] form {
+    clear: both;
+    width: 100%;
+}
+
+#innerCon .container div[class*=col-] form div.form-group label {
+    color: rgba(128, 197, 46, 1);
+}
+
+#innerCon .container div[class*=col-] form div.form-group .input-group span {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+#innerCon .container div[class*=col-] #map {
+    border: 1px solid rgba(128, 197, 46, 1);
+    clear: both;
+    height: 250px;
+    margin: 1.5em 0;
+    width: 100%;
+}
+
+#innerCon .container div[class*=col-] #map iframe {
+    height: 245px;
+    width: 100%;
+}
+
+
+
+#innerCon .container div[class*=col-] #address {
+    clear: both;
+    height: auto;
+    min-height: 200px;
+    padding: 1em 0;
+    width: 100%;
+}
+
+#innerCon .container div[class*=col-] #address p {
+    clear: both;
+    font-family: inderRegular;
+    font-size: 1em;
+    padding-bottom: 0.2em;
+}
+
+#innerCon .container div[class*=col-] #address p span {
+    color: rgba(128, 197, 46, 1);
+}
+
+#newsContent, #newsContent2 {
+    margin: 30px 20px;
+    min-height: 500px;
+}
+
+#newsContent h3, #newsContent2 h3 {
+    margin: 0px 20px 20px;
+    color: rgba(15, 104, 155, 1);
+}
+
+#newsContent img #newsContent2 img {
+   height: 32em;
+}
+
+#news .topaz img {
+   height: 10em;
+	width: 80%;
+	margin-bottom: 10px;
+}
+
+
+#newsContent p, #newsContent2 p {
+    margin: 20px 20px 10px;
+    text-align: justify;
+  }
+
+#newsContent span, #newsContent2 span {
+	font-style:italic;
+	color:rgba(15,104,155,1);
+    margin: 10px 20px 20px;
+    text-align: justify;
+  }
